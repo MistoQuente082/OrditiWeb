@@ -20,7 +20,7 @@ const customerVSchema = {
     name: { type: "string", min: 1, max: 50, pattern: namePattern },
     email: { type: "email", max: 75 },
     local: { type: "string", max: 5 },
-
+    
     produto: { type: "string", min: 2, max: 50 }
 };
 
